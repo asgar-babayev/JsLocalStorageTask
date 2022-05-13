@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <button id="myBtn" class="btn">Səbət</button>
+        <span class="badge"></span>
+    </div>
+    <div class="container gap-150 mt-5">
+        <div class="single-product">
+            <div class="product-details">
+                <img src="assets/images/apple.png" alt="">
+                <h2>Quba Alması</h2>
+            </div>
+            <div class="price">
+                <h4>2.00 Azn</h4>
+            </div>
+            <div class="prd-bottom">
+                <span class="social-info" data-id="1">
+                    <a href="#">Səbətə əlavə et</a>
+                </span>
+            </div>
+        </div>
+        <div class="single-product">
+            <div class="product-details">
+                <img src="assets/images/greenApple.png" alt="">
+                <h2>Bakı Alması</h2>
+            </div>
+            <div class="price">
+                <h4>3.00 Azn</h4>
+            </div>
+            <div class="prd-bottom">
+                <span class="social-info" data-id="2">
+                    <a href="#">Səbətə əlavə et</a>
+                </span>
+            </div>
+        </div>
+        <div class="single-product">
+            <div class="product-details">
+                <img src="assets/images/banana.png" alt="">
+                <h2>Madaqaskar Bananı</h2>
+            </div>
+            <div class="price">
+                <h4>5.00 Azn</h4>
+            </div>
+            <div class="prd-bottom">
+                <span class="social-info" data-id="3">
+                    <a href="#">Səbətə əlavə et</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Alış veriş səbətiniz</h3>
+            <table class="table-design mt-2">
+                <tr>
+                    <th>Product</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Count</th>
+                    <th>Total</th>
+                    <th>Actions</th>
+                </tr>
+                <tbody id="tablebody">
+
+                </tbody>
+            </table>
+            <div class="total-prices">
+                <p class="pric">Total: 0</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
